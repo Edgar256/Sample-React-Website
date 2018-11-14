@@ -1,0 +1,349 @@
+/*
+
+	I AM THE SILENT STORM
+
+	PING ME AT tinka.edgar@gmail.com
+
+*/
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+/*  --------------HTML ELEMENTS---------------------*/
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 24px;
+  height: 100%;
+  width: 100%;
+  margin: 0px; }
+
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; }
+
+p:focus {
+  border: none;
+  outline: 0; }
+
+a:hover, a:focus {
+  text-decoration: none;
+  color: #000; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+a, button {
+  text-decoration: none;
+  outline: none !important;
+  color: #878787;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease; }
+
+a:active, a.active, button:active, button.active {
+  background: none !important;
+  border: none !important; }
+
+input {
+  border: 1px solid #d0d0d0;
+  padding: 14px;
+  width: 95%;
+  border-radius: 5px;
+  font-size: 18px; }
+
+textarea {
+  border: 1px solid #d0d0d0;
+  padding: 14px;
+  width: 95%;
+  border-radius: 5px;
+  font-size: 18px; }
+
+button {
+  width: 95%;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 10px;
+  color: #fff;
+  background-color: #d83454;
+  border: 0px; }
+
+/*img{
+	width: 100%;
+}*/
+/*  --------------HTML CLASSES---------------------*/
+.center-text {
+  text-align: center; }
+
+
+.section-wrapper-inner {
+  display: flex; }
+
+
+.container-two-one {
+  width: 100%;
+  display: inline-flex; }
+
+.logo-holder {
+  margin: 200px 0px 50px 0px;
+  width: 20%; }
+
+.logo-holder-side {
+  width: 40%; }
+
+.mockup-holder {
+  margin: 150px 0px 70px 0px;
+  width: 33.3%; }
+
+.mockup-holder-side {
+  margin: 150px 0px 70px 0px;
+  width: 33.3%; }
+
+.slg-holder {
+  font-size: 22px;
+  text-align: center;
+  font-weight: 500;
+  margin: 50px 0px 50px 0px;
+  width: 40%; }
+
+.slg-holder-side {
+  width: 30%; }
+
+.arrow-holder {
+  margin: 30px 0px 30px 0px;
+  width: 4%; }
+
+.arrow-holder-sect {
+  width: 48%; }
+
+.descr-txt {
+  color: #3d3b3e;
+  margin: 10px 0px 10px 0px; }
+
+
+
+.bg-white {
+  background-color: #fff; }
+
+.header {
+  font-size: 70px;
+  color: #3d3b3e;
+  margin: 80px 0px 40px 0px;
+  width: 60%; }
+
+.header-side {
+  width: 20%; }
+
+.ser-main {
+  display: inline-flex;
+  width: 100%; }
+
+.img-ser {
+  position: relative;
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  padding-top: 25%;
+  padding-bottom: 25%;
+  background: #d83454;
+  display: inline-block; }
+
+.img-ser-inner {
+  padding: 3px; }
+
+.input-wrapper {
+  color: #fff;
+  display: -webkit-inline-box;
+  margin: 10px;
+  width: 90%; }
+
+.container-contact {
+  display: inline; }
+
+.ptnr-sctn {
+  display: inline-flex;
+  width: 100%;
+  margin: 150px 0px 100px 0px; }
+
+.ser-main-inner {
+  width: 20%;
+  margin: 10px; }
+
+.ser-txt {
+  color: #000;
+  margin: 50px 0px 30px 0px;
+  width: 100%; }
+
+.input-holder {
+  width: 33.3%; }
+
+.input-holder-side {
+  width: 33.3%; }
+
+.input-holder-txt {
+  width: 33.3%; }
+
+.input-holder-txt-side {
+  width: 33.3%; }
+
+.container-map {
+  width: 100%;
+  height: 300px; }
+
+.margin-10 {
+  margin: 10px; }
+
+.map-pin {
+  width: 4%;
+  margin: -150px auto 50px auto;
+  position: relative; }
+
+#startSection, #sectionOne, #sectionTwo, #sectionThree, #sectionFour, #sectionFive, #sectionSix, #sectiionSeven {
+  height: 750px; }
+
+#map {
+  height: 100%;
+  width: 100%; }
+
+.width-4 {
+  width: 4%; }
+
+.width-10 {
+  width: 10%; }
+
+.width-12 {
+  width: 12.5%; }
+
+.width-20 {
+  width: 20%; }
+
+.width-25 {
+  width: 25%; }
+
+.width-30 {
+  width: 30%; }
+
+.width-33 {
+  width: 33.3%; }
+
+.width-40 {
+  width: 40%; }
+
+.width-45 {
+  width: 45%; }
+
+.width-48 {
+  width: 48%; }
+
+.width-50 {
+  width: 50%; }
+
+.width-60 {
+  width: 60%; }
+
+.width-70 {
+  width: 70%; }
+
+.width-80 {
+  width: 80%; }
+
+.width-90 {
+  width: 90%; }
+
+.width-100 {
+  width: 100%; }
+
+.footer-txt {
+  color: #000;
+  font-size: 16px; }
+
+/*Macbook Size*/
+@media screen and (min-width: 1700px) {
+  #startSection, #sectionOne, #sectionTwo, #sectionThree, #sectionFour, #sectionFive, #sectionSix, #sectiionSeven {
+    height: 1050px; }
+
+  .img-ser {
+    position: relative;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    padding-top: 15%; } }
+/*Mobile Version Styling*/
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 35px; }
+
+  .logo-holder {
+    margin: 150px 0px 30px 0px;
+    width: 60%; }
+
+  .logo-holder-side {
+    width: 20%; }
+
+  .mockup-holder {
+    margin: 150px 0px 70px 0px;
+    width: 100%; }
+
+  .slg-holder {
+    width: 60%;
+    font-size: 16px; }
+
+  .slg-holder-side {
+    width: 20%; }
+
+  .arrow-holder {
+    width: 10%;
+    margin: 50px 0px 50px 0px; }
+
+  .arrow-holder-sect {
+    width: 45%; }
+
+  .input-holder {
+    width: 90%; }
+
+  .ser-main {
+    display: inline-block;
+    width: 100%; }
+
+  .ser-main-inner {
+    width: 90%;
+    margin: 10px;
+    display: -webkit-box; }
+
+  .img-ser {
+    position: relative;
+    border-radius: 50%;
+    width: 85px;
+    height: 85px; }
+
+  .ser-txt {
+    color: #000;
+    margin: 30px 0px 20px 0px;
+    width: 75%; }
+
+  #startSection, #sectionOne, #sectionTwo, #sectionThree, #sectionFour, #sectionFive, #sectionSix, #sectionSeven {
+    /*height: 650px;*/
+    height: auto;
+    font-size: 22px;
+    margin: -10px 0px 0px 0px; }
+
+  .header {
+    font-size: 30px;
+    width: 100%;
+    margin: 60px 0px 35px 0px; }
+
+  .input-wrapper {
+    display: inline-flex; }
+
+  .input-holder-txt {
+    width: 95%; }
+
+  .input-holder-txt-side {
+    width: 4%; }
+
+  .map-pin {
+    width: 10%;
+    margin: -150px auto 50px auto;
+    position: relative; } }
+
+/*# sourceMappingURL=styles.css.map */

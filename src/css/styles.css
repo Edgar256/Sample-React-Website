@@ -1,0 +1,50 @@
+/*
+	I AM THE SILENT STORM
+	ping me at tinka.edgar@gmail.com
+*/
+.bg-maroon {
+  background-color: #d83554 !important; }
+
+.txt-maroon {
+  color: #d83554; }
+
+h1 {
+  font-size: 52px; }
+
+h2 {
+  font-size: 48px; }
+
+h3 {
+  font-size: 44px; }
+
+h4 {
+  font-size: 40px; }
+
+h5 {
+  font-size: 36px; }
+
+h6 {
+  font-size: 32px; }
+
+p {
+  font-size: 28px; }
+
+.container-two {
+  background-color: #f1f2f2;
+  color: #fff;
+  margin: 0px;
+  text-align: center;
+  width: 100%; }
+
+.section-wrapper {
+  background-color: #f1f2f2;
+  color: #fff;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  display: inline-block; }
+
+.edgar {
+  background: #fff999; }
+
+/*# sourceMappingURL=styles.css.map */
