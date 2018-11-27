@@ -150,7 +150,11 @@ class App extends Component {
             </div>
             <div className="ser-main-inner">
               <div className="img-ser">
-                <img src="images/ux-research.png" width="50%" />
+                <img
+                  src="images/ux-research.png"
+                  alt="ux research"
+                  width="50%"
+                />
               </div>
               <div className="ser-txt">UX Reseach</div>
             </div>
@@ -161,7 +165,11 @@ class App extends Component {
             <div className="arrow-holder">
               <a href="#sectionFive">
                 {" "}
-                <img src="images/ghost-btn-black.png" width="100%" />
+                <img
+                  src="images/ghost-btn-black.png"
+                  alt="ghost btn black"
+                  width="100%"
+                />
               </a>{" "}
             </div>
             <div className="arrow-holder-sect" />
@@ -176,19 +184,27 @@ class App extends Component {
           </div>
           <div className="ptnr-sctn">
             <div className="width-12">
-              <img src="images/chevron-left.png" width="10%" />
+              <img
+                src="images/chevron-left.png"
+                alt="chevron left"
+                width="10%"
+              />
             </div>
             <div className="width-25">
-              <img src="images/logo-tpg.png" width="50%" />{" "}
+              <img src="images/logo-tpg.png" alt="logo tpg" width="50%" />{" "}
             </div>
             <div className="width-25">
-              <img src="images/logo-tvs.png" width="50%" />
+              <img src="images/logo-tvs.png" alt="logo tvs" width="50%" />
             </div>
             <div className="width-25">
-              <img src="images/logo-pshe.png" width="50%" />
+              <img src="images/logo-pshe.png" alt="logo pshe" width="50%" />
             </div>
             <div className="width-12">
-              <img src="images/chevron-right.png" width="10%" />
+              <img
+                src="images/chevron-right.png"
+                alt="chevron right"
+                width="10%"
+              />
             </div>
           </div>
           <div className="section-wrapper-inner">
@@ -196,7 +212,11 @@ class App extends Component {
             <div className="arrow-holder">
               <a href="#sectionSix">
                 {" "}
-                <img src="images/ghost-btn-black.png" width="100%" />
+                <img
+                  src="images/ghost-btn-black.png"
+                  alt="ghost btn black"
+                  width="100%"
+                />
               </a>{" "}
             </div>
             <div className="arrow-holder-sect" />
@@ -220,7 +240,7 @@ class App extends Component {
             <div className="arrow-holder">
               <a href="#sectionSeven">
                 {" "}
-                <img src="images/btn-red.png" width="100%" />
+                <img src="images/btn-red.png" alt="btn red" width="100%" />
               </a>{" "}
             </div>
             <div className="arrow-holder-sect" />
