@@ -1,29 +1,42 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 /*import logo from './logo.svg';*/
-import 'images/gl-logo.png'
-import './css/branding.css';
-import './css/styles.css';
+import "./css/branding.css";
+import "./css/styles.css";
+
+/*Images here */
+import glLogo from "./images/gl-logo.png";
+import btnRed from "./images/btn-red.png";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <div class="section-wrapper bg-maroon" id="startSection">
-            <div class="section-wrapper-inner">
-              <div class="logo-holder-side"></div>
-              <div class="logo-holder"><img src="images/gl-logo.png" alt="GeekLabel Logo" width="100%"/></div>
-              <div class="logo-holder-side"></div>    
+          <div className="section-wrapper bg-maroon" id="startSection">
+            <div className="section-wrapper-inner">
+              <div className="logo-holder-side" />
+              <div className="logo-holder">
+                <img src={glLogo} alt="GeekLabel Logo" width="100%" />
+              </div>
+              <div className="logo-holder-side" />
             </div>
-            <div class="section-wrapper-inner">   
-              <div class="slg-holder-side"></div>
-              <div class="slg-holder">A team of self confessed geeks who are all about great digital design</div>
-              <div class="slg-holder-side"></div>       
+            <div className="section-wrapper-inner">
+              <div className="slg-holder-side" />
+              <div className="slg-holder">
+                A team of self confessed geeks who are all about great digital
+                design
+              </div>
+              <div className="slg-holder-side" />
             </div>
-            <div class="section-wrapper-inner">   
-              <div class="arrow-holder-sect"></div>
-              <div class="arrow-holder"><a href="#sectionOne"> <img src="images/btn-red.png" width="100%"/></a> </div>
-              <div class="arrow-holder-sect"></div>       
+            <div className="section-wrapper-inner">
+              <div className="arrow-holder-sect" />
+              <div className="arrow-holder">
+                <a href="#sectionOne">
+                  {" "}
+                  <img src={btnRed} alt="btn-red" width="100%" />
+                </a>{" "}
+              </div>
+              <div className="arrow-holder-sect" />
             </div>
           </div>
         </header>
