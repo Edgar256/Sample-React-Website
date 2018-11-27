@@ -60,7 +60,7 @@ class App extends Component {
             <div className="arrow-holder">
               {" "}
               <a href="#sectionTwo">
-                <img src="images/btn-red.png" width="100%" />
+                <img src="images/btn-red.png" alt="btn red" width="100%" />
               </a>{" "}
             </div>
             <div className="arrow-holder-sect" />
@@ -71,13 +71,13 @@ class App extends Component {
           <div className="section-wrapper-inner">
             <div className="mockup-holder-side" />
             <div className="mockup-holder">
-              <img src="images/build.png" alt="mockup image" width="100%" />{" "}
+              <img src="images/build.png" alt="build" width="100%" />{" "}
             </div>
             <div className="mockup-holder-side" />
           </div>
           <div className="section-wrapper-inner">
             <div className="width-20" />
-            <div className="width-60" style="color: #3d3b3e;">
+            <div className="width-60" style={{ color: "#3d3b3e;" }}>
               Some agencies know how to{" "}
               <span className="txt-maroon">build</span> but can't do design
             </div>
