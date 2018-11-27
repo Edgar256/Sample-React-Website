@@ -88,7 +88,7 @@ class App extends Component {
             <div className="arrow-holder">
               <a href="#sectionThree">
                 {" "}
-                <img src="images/btn-red.png" width="100%" />
+                <img src="images/btn-red.png" alt="btn red" width="100%" />
               </a>{" "}
             </div>
             <div className="arrow-holder-sect" />
@@ -99,7 +99,7 @@ class App extends Component {
           <div className="section-wrapper-inner">
             <div className="mockup-holder-side" />
             <div className="mockup-holder">
-              <img src="images/solution.png" alt="mockup image" width="100%" />{" "}
+              <img src="images/solution.png" alt="solution" width="100%" />{" "}
             </div>
             <div className="mockup-holder-side" />
           </div>
@@ -115,7 +115,7 @@ class App extends Component {
             <div className="arrow-holder">
               <a href="#sectionFour">
                 {" "}
-                <img src="images/btn-red.png" width="100%" />
+                <img src="images/btn-red.png" alt="btn red" width="100%" />
               </a>{" "}
             </div>
             <div className="arrow-holder-sect" />
@@ -132,19 +132,19 @@ class App extends Component {
             <div className="width-10" />
             <div className="ser-main-inner">
               <div className="img-ser">
-                <img src="images/web-dev.png" width="50%" />
+                <img src="images/web-dev.png" alt="web dev" width="50%" />
               </div>
               <div className="ser-txt">Development</div>
             </div>
             <div className="ser-main-inner">
               <div className="img-ser">
-                <img src="images/design.png" width="50%" />
+                <img src="images/design.png" alt="design" width="50%" />
               </div>
               <div className="ser-txt">Design</div>
             </div>
             <div className="ser-main-inner">
               <div className="img-ser">
-                <img src="images/branding.png" width="50%" />
+                <img src="images/branding.png" alt="branding" width="50%" />
               </div>
               <div className="ser-txt">Branding</div>
             </div>
