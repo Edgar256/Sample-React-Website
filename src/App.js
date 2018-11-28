@@ -6,6 +6,18 @@ import "./css/styles.css";
 /*Images here */
 import glLogo from "./images/gl-logo.png";
 import btnRed from "./images/btn-red.png";
+import mockups from "./images/mockups.png";
+import solution from "./images/solution.png";
+import build from "./images/build.png";
+import design from "./images/design.png";
+import webDev from "./images/web-dev.png";
+import logoTpg from "./images/logo-tpg.png";
+import logoTvs from "./images/logo-tvs.png";
+import ghostBtnBlack from "./images/ghost-btn-black.png";
+import logoPshe from "./images/logo-pshe.png";
+import uxResearch from "./images/ux-research.png";
+import chevronLeft from "./images/chevron-left.png";
+import mapPin from "./images/map-pin.png";
 
 class App extends Component {
   render() {
@@ -15,7 +27,7 @@ class App extends Component {
           <div className="section-wrapper-inner">
             <div className="logo-holder-side" />
             <div className="logo-holder">
-              <img src="images/gl-logo.png" alt="GeekLabel Logo" width="100%" />
+              <img src={glLogo} alt="GeekLabel Logo" width="100%" />
             </div>
             <div className="logo-holder-side" />
           </div>
@@ -32,7 +44,7 @@ class App extends Component {
             <div className="arrow-holder">
               <a href="#sectionOne">
                 {" "}
-                <img src="images/btn-red.png" width="100%" />
+                <img src={btnRed} alt="btn red" width="100%" />
               </a>{" "}
             </div>
             <div className="arrow-holder-sect" />
@@ -43,7 +55,7 @@ class App extends Component {
           <div className="section-wrapper-inner">
             <div className="mockup-holder-side" />
             <div className="mockup-holder">
-              <img src="images/mockups.png" alt="mockup image" width="100%" />{" "}
+              <img src={mockups} alt="mockups" width="100%" />{" "}
             </div>
             <div className="mockup-holder-side" />
           </div>
@@ -60,7 +72,7 @@ class App extends Component {
             <div className="arrow-holder">
               {" "}
               <a href="#sectionTwo">
-                <img src="images/btn-red.png" alt="btn red" width="100%" />
+                <img src={btnRed} alt="btn red" width="100%" />
               </a>{" "}
             </div>
             <div className="arrow-holder-sect" />
@@ -71,7 +83,7 @@ class App extends Component {
           <div className="section-wrapper-inner">
             <div className="mockup-holder-side" />
             <div className="mockup-holder">
-              <img src="images/build.png" alt="build" width="100%" />{" "}
+              <img src={build} alt="build" width="100%" />{" "}
             </div>
             <div className="mockup-holder-side" />
           </div>
@@ -88,7 +100,7 @@ class App extends Component {
             <div className="arrow-holder">
               <a href="#sectionThree">
                 {" "}
-                <img src="images/btn-red.png" alt="btn red" width="100%" />
+                <img src={btnRed} alt="btn red" width="100%" />
               </a>{" "}
             </div>
             <div className="arrow-holder-sect" />
@@ -99,13 +111,13 @@ class App extends Component {
           <div className="section-wrapper-inner">
             <div className="mockup-holder-side" />
             <div className="mockup-holder">
-              <img src="images/solution.png" alt="solution" width="100%" />{" "}
+              <img src={solution} alt="solution" width="100%" />{" "}
             </div>
             <div className="mockup-holder-side" />
           </div>
           <div className="section-wrapper-inner">
             <div className="width-20" />
-            <div className="width-60" style="color: #3d3b3e;">
+            <div className="width-60" style={{ color: "#3d3b3e;" }}>
               We love <span className="txt-maroon">both</span>
             </div>
             <div className="width-20" />
@@ -115,7 +127,7 @@ class App extends Component {
             <div className="arrow-holder">
               <a href="#sectionFour">
                 {" "}
-                <img src="images/btn-red.png" alt="btn red" width="100%" />
+                <img src={btnRed} alt="btn red" width="100%" />
               </a>{" "}
             </div>
             <div className="arrow-holder-sect" />
@@ -132,13 +144,13 @@ class App extends Component {
             <div className="width-10" />
             <div className="ser-main-inner">
               <div className="img-ser">
-                <img src="images/web-dev.png" alt="web dev" width="50%" />
+                <img src={webDev} alt="web dev" width="50%" />
               </div>
               <div className="ser-txt">Development</div>
             </div>
             <div className="ser-main-inner">
               <div className="img-ser">
-                <img src="images/design.png" alt="design" width="50%" />
+                <img src={design} alt="design" width="50%" />
               </div>
               <div className="ser-txt">Design</div>
             </div>
@@ -151,7 +163,7 @@ class App extends Component {
             <div className="ser-main-inner">
               <div className="img-ser">
                 <img
-                  src="images/ux-research.png"
+                  src={uxResearch}
                   alt="ux research"
                   width="50%"
                 />
@@ -166,7 +178,7 @@ class App extends Component {
               <a href="#sectionFive">
                 {" "}
                 <img
-                  src="images/ghost-btn-black.png"
+                  src={ghostBtnBlack}
                   alt="ghost btn black"
                   width="100%"
                 />
@@ -185,19 +197,19 @@ class App extends Component {
           <div className="ptnr-sctn">
             <div className="width-12">
               <img
-                src="images/chevron-left.png"
+                src={chevronLeft}
                 alt="chevron left"
                 width="10%"
               />
             </div>
             <div className="width-25">
-              <img src="images/logo-tpg.png" alt="logo tpg" width="50%" />{" "}
+              <img src={logoTpg} alt="logo tpg" width="50%" />{" "}
             </div>
             <div className="width-25">
-              <img src="images/logo-tvs.png" alt="logo tvs" width="50%" />
+              <img src={logoTvs} alt="logo tvs" width="50%" />
             </div>
             <div className="width-25">
-              <img src="images/logo-pshe.png" alt="logo pshe" width="50%" />
+              <img src={logoPshe} alt="logo pshe" width="50%" />
             </div>
             <div className="width-12">
               <img
@@ -213,7 +225,7 @@ class App extends Component {
               <a href="#sectionSix">
                 {" "}
                 <img
-                  src="images/ghost-btn-black.png"
+                  src={ghostBtnBlack}
                   alt="ghost btn black"
                   width="100%"
                 />
@@ -232,7 +244,7 @@ class App extends Component {
           <div className="container-map">
             <div id="map" />
             <div className="map-pin">
-              <img src="images/map-pin.png" alt="map-pin.png" width="100%" />
+              <img src={mapPin} alt="map-pin.png" width="100%" />
             </div>
           </div>
           <div className="section-wrapper-inner">
@@ -249,7 +261,7 @@ class App extends Component {
 
         <div
           className="section-wrapper"
-          style="/*margin: 0px 0px -30px 0px;*/"
+          style={{ margin: "0px 0px -30px 0px;" }}
           id="sectionSeven"
         >
           <div className="section-wrapper-inner">
@@ -284,7 +296,7 @@ class App extends Component {
                     name="message"
                     id="message"
                     placeholder="Message"
-                    style="height:200px"
+                    style={{ height: "200px" }}
                   >
                     {" "}
                   </textarea>
