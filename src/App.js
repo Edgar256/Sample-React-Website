@@ -2,6 +2,7 @@ import React, { Component } from "react";
 /*import logo from './logo.svg';*/
 import "./css/branding.css";
 import "./css/styles.css";
+import "./js/maps.code.js";
 
 /*Images here */
 import glLogo from "./images/gl-logo.png";
