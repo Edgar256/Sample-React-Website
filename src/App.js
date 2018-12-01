@@ -17,7 +17,9 @@ import ghostBtnBlack from "./images/ghost-btn-black.png";
 import logoPshe from "./images/logo-pshe.png";
 import uxResearch from "./images/ux-research.png";
 import chevronLeft from "./images/chevron-left.png";
+import chevronRight from "./images/chevron-right.png";
 import mapPin from "./images/map-pin.png";
+import branding from "./images/branding.png";
 
 class App extends Component {
   render() {
@@ -89,9 +91,9 @@ class App extends Component {
           </div>
           <div className="section-wrapper-inner">
             <div className="width-20" />
-            <div className="width-60" style={{ color: "#3d3b3e;" }}>
+            <div className="width-60 descr-txt">
               Some agencies know how to{" "}
-              <span className="txt-maroon">build</span> but can't do design
+              <span className="txt-maroon">build</span> but can not do design
             </div>
             <div className="width-20" />
           </div>
@@ -117,7 +119,7 @@ class App extends Component {
           </div>
           <div className="section-wrapper-inner">
             <div className="width-20" />
-            <div className="width-60" style={{ color: "#3d3b3e;" }}>
+            <div className="width-60 descr-txt">
               We love <span className="txt-maroon">both</span>
             </div>
             <div className="width-20" />
@@ -156,7 +158,7 @@ class App extends Component {
             </div>
             <div className="ser-main-inner">
               <div className="img-ser">
-                <img src="images/branding.png" alt="branding" width="50%" />
+                <img src={branding} alt="branding" width="50%" />
               </div>
               <div className="ser-txt">Branding</div>
             </div>
@@ -200,11 +202,7 @@ class App extends Component {
               <img src={logoPshe} alt="logo pshe" width="50%" />
             </div>
             <div className="width-12">
-              <img
-                src="images/chevron-right.png"
-                alt="chevron right"
-                width="10%"
-              />
+              <img src={chevronRight} alt="chevron right" width="10%" />
             </div>
           </div>
           <div className="section-wrapper-inner">
@@ -236,7 +234,7 @@ class App extends Component {
             <div className="arrow-holder">
               <a href="#sectionSeven">
                 {" "}
-                <img src="images/btn-red.png" alt="btn red" width="100%" />
+                <img src={btnRed} alt="btn red" width="100%" />
               </a>{" "}
             </div>
             <div className="arrow-holder-sect" />
